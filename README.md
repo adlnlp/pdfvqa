@@ -13,4 +13,6 @@ The Appendix can be found in the Appendix.pdf
 
 
 ## PDFVQA Dataset
-We introduce **PDFVQA**, a new Document-based Visual Question Answering dataset. 
+We introduce **PDFVQA**, a new Document-based Visual Question Answering dataset, to comprehensively examine the document understanding from various aspects, including document element recognition, document layout structural understanding as well as contextual understanding and key information extraction. Our PDF-VQA dataset extends the current scale of document understanding that limits on the single document page to the new scale that asks questions over the full document of multiple pages.
+
+
