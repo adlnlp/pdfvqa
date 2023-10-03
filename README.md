@@ -21,5 +21,8 @@ We introduce **PDFVQA**, a new Document-based Visual Question Answering dataset,
 - **Task C**: document understanding on the full document-level of multiple consecutive pages.
 
 
+- Detailed Dataset Statistics:
+
+<img src="https://github.com/adlnlp/pdfvqa/blob/main/Figures/PDFVQA_DataStats.png" width="50%">
   
 
