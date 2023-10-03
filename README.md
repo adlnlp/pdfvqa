@@ -25,4 +25,5 @@ We introduce **PDFVQA**, a new Document-based Visual Question Answering dataset,
 
 <img src="https://github.com/adlnlp/pdfvqa/blob/main/Figures/PDFVQA_DataStats.png" width="50%">
   
-
+## Relational Graph Annotation
+The dataset 
