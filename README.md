@@ -19,7 +19,7 @@ We introduce **PDFVQA**, a new Document-based Visual Question Answering dataset,
 - **Task A**: document element recognition and spatial relationship understanding among document elements on the page level. The answers should be predicted from a fixed answer space.
 - **Task B**: structural understanding of document elements and answer extraction on the document page level.
 - **Task C**: document understanding on the whole document level of multiple consecutive pages.
-
+There are pkl files contains Task C question answer pairs
 
 Data Statistics of Tasks A, B, and C:
 
@@ -33,13 +33,13 @@ Future works can directly use such relational information as the additional feat
 
 ## Dataset files
 The dataset consists of three main splits: training, validation, and testing. For each split, we provide two types of files:
-- csv file: contains questions and their ground truth answers.
-- pkl file: contains essential document information, including the bounding box coordinates of each document layout component, textual contents inside each bounding box, and parent-child relationships (relational graph annotation). This information is crucial for understanding the structure of the visually-rich documents and identifying relevant Regions of Interest (RoIs) that might contain the answers to the questions.
+- question-answer pkl files: contains questions and their ground truth answers.
+- document layout structure pkl file: contains essential document information, including the bounding box coordinates of each document layout component, textual contents inside each bounding box, and parent-child relationships (relational graph annotation). This information is crucial for understanding the structure of the visually-rich documents and identifying relevant Regions of Interest (RoIs) that might contain the answers to the questions.
 
 We also provide the document images for each data split. The pkl files contain the information to locate the document images of each target document.
 
-### Document Image and Layout Structure Json Files
-Please refer this [link](https://drive.google.com/drive/folders/1A2cI3uJUU_1ZliOKpHmYa07VfvZCwOo1?usp=drive_link) to get the document images of each split. 
+### Document Image and Layout Structure Pickle Files
+Please refer to this [link](https://drive.google.com/drive/folders/1A2cI3uJUU_1ZliOKpHmYa07VfvZCwOo1?usp=drive_link) to get the document images of each split. 
 
 Layout structure information of each data split: [Training](https://drive.google.com/file/d/1SyEptlqqX-frq_1hSQTxUGGptk6OI9aQ/view?usp=drive_link),
 [Validation](https://drive.google.com/file/d/1Z9umISob9ar_5n5T-Cbhr4nbHuQCvVGm/view?usp=drive_link),
@@ -49,7 +49,8 @@ Layout structure information of each data split: [Training](https://drive.google
 
 ### Task B Question Answer Pairs:
 
-### Task C Question Answer Pairs:
+### Task C Question Answer Pairs
+Please refer to those links to get question-answer pairs for [training](https://drive.google.com/file/d/1-8ECkZV5q5i7CBY7U1llmCTSiVJPUNsS/view?usp=drive_link), [validation](https://drive.google.com/file/d/1-WdGXwo_8U7cU8mOh5ZjLm_CDqDDWbxo/view?usp=drive_link) and [testing](https://drive.google.com/file/d/1-F242FFvubAIpjXPItFc_eGUs3dzb6QO/view?usp=drive_link) splits. 
 
 ## Experiments
 We experimented with several baselines on our PDF-VQA dataset to provide a preliminary view of different models’ performances. 
