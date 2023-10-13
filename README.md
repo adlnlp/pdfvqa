@@ -1,7 +1,7 @@
 # PDFVQA
 
 
-The github will be released right after the conference (ECML PKDD 2023).
+The GitHub will be released after the conference (ECML PKDD 2023).
 The Appendix can be found in the Appendix.pdf 
 
 
@@ -15,21 +15,21 @@ The Appendix can be found in the Appendix.pdf
 ## PDFVQA Dataset
 We introduce **PDFVQA**, a new Document-based Visual Question Answering dataset, to comprehensively examine the document understanding from various aspects, including document element recognition, document layout structural understanding as well as contextual understanding and key information extraction. Our PDF-VQA dataset extends the current scale of document understanding that limits on the single document page to the new scale that asks questions over the full document of multiple pages.
 
-**The dataset contains 3 tasks:**
-- **Task A**: document element recognition and spatial relationship understanding among document elements on the page-level. The answers should be predcited from a fixed answer space.
-- **Task B**: structural understanding of document elements and answer extraction on the document page-level.
-- **Task C**: document understanding on the full document-level of multiple consecutive pages.
+**The dataset contains three tasks:**
+- **Task A**: document element recognition and spatial relationship understanding among document elements on the page level. The answers should be predicted from a fixed answer space.
+- **Task B**: structural understanding of document elements and answer extraction on the document page level.
+- **Task C**: document understanding on the whole document level of multiple consecutive pages.
 
 
-Data Statistics of Task A, B, and C:
+Data Statistics of Tasks A, B, and C:
 
 <img src="https://github.com/adlnlp/pdfvqa/blob/main/Figures/PDFVQA_DataStats.png" width="50%">
   
 ## Relational Graph Annotation
-Our PDFVQA dataset specifically annotate the hierarchically logical relational graph among the document layout elements to specify the potential affiliation between document elements by identifying the
-parent object and their children’s objects based on the hierarchical structures of document layouts. 
+Our PDFVQA dataset specifically annotates the hierarchically logical relational graph among the document layout elements to specify the potential affiliation between document elements by identifying the
+parent objects and their children’s objects based on the hierarchical structures of document layouts. 
 
-Such relational information can be directly used by future works as the additional features for document understanding. 
+Future works can directly use such relational information as the additional features for document understanding. 
 
 ## Dataset files
 The dataset consists of three main splits: training, validation, and testing. For each split, we provide two types of files:
@@ -38,15 +38,22 @@ The dataset consists of three main splits: training, validation, and testing. Fo
 
 We also provide the document images for each data split. The pkl files contain the information to locate the document images of each target document.
 
+### Document and Annotated Json Files
+Please refer this [link](https://drive.google.com/drive/folders/1A2cI3uJUU_1ZliOKpHmYa07VfvZCwOo1?usp=drive_link) to get the document images of each split. 
+Annotated information of each data split:
+[Training](https://drive.google.com/file/d/1SyEptlqqX-frq_1hSQTxUGGptk6OI9aQ/view?usp=drive_link)
+[Validation](https://drive.google.com/file/d/1Z9umISob9ar_5n5T-Cbhr4nbHuQCvVGm/view?usp=drive_link)
+[Testing](https://drive.google.com/file/d/1knSVmocw4-_FF98bFMdVSvhnUn3mPUvm/view?usp=drive_link)
+
 
 ## Experiments
 We experimented with several baselines on our PDF-VQA dataset to provide a preliminary view of different models’ performances. 
 
 - Acronym of feature aspects: Q--Question features; B--Bounding box coordinates; V--Visual appearance features; C--Contextual features; R: Relational Information.
 - The better performance of VisualBERT than ViLT indicates that object-level visual features are more effective than image patch representations.
-- LayoutLM2 used token-level visual and bounding box features, which shows its ineffective for the whole document element identification.
-- Our proposed graph-based model, LoSpa, achieves the highest performance compared to all baselines, which indiciates the effetiveness of relational information on this task.
-- The comparatively low performances on Task C of all models indicates the difficulty of document-level questions and produces massive room for improvement for future research on this task.
+- LayoutLM2 used token-level visual and bounding box features, which shows it's ineffective for the whole document element identification.
+- Our proposed graph-based model, LoSpa, achieves the highest performance compared to all baselines, which indicates the effectiveness of relational information on this task.
+- The comparatively low performances on Task C of all models indicate the difficulty of document-level questions and produce massive room for improvement for future research on this task.
 - **Note: the detailed baseline model setup can be found in Appendix C.**
 
 
