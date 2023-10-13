@@ -41,12 +41,8 @@ We also provide the document images for each data split. The pkl files contain t
 ### Document Image and Layout Structure Json Files
 Please refer this [link](https://drive.google.com/drive/folders/1A2cI3uJUU_1ZliOKpHmYa07VfvZCwOo1?usp=drive_link) to get the document images of each split. 
 
-Layout structure information of each data split:
-
-[Training](https://drive.google.com/file/d/1SyEptlqqX-frq_1hSQTxUGGptk6OI9aQ/view?usp=drive_link)
-
-[Validation](https://drive.google.com/file/d/1Z9umISob9ar_5n5T-Cbhr4nbHuQCvVGm/view?usp=drive_link)
-
+Layout structure information of each data split:[Training](https://drive.google.com/file/d/1SyEptlqqX-frq_1hSQTxUGGptk6OI9aQ/view?usp=drive_link),
+[Validation](https://drive.google.com/file/d/1Z9umISob9ar_5n5T-Cbhr4nbHuQCvVGm/view?usp=drive_link),
 [Testing](https://drive.google.com/file/d/1knSVmocw4-_FF98bFMdVSvhnUn3mPUvm/view?usp=drive_link)
 
 
