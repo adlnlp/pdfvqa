@@ -50,7 +50,9 @@ Please refer to those links to get question-answer pairs for [training](https://
 ### Task B Question Answer Pairs:
 Please refer to those links to get question-answer pairs for [training](https://drive.google.com/file/d/1FJ8haTaHKEe0LX1HVVY1fIk8ogLv0GVw/view?usp=drive_link), [validation](https://drive.google.com/file/d/18N7YACPIvPQ1Mr1Lvmh4ohKAYgZWDfYp/view?usp=drive_link) and [testing](https://drive.google.com/file/d/1FrAB0tKcVg3r67yi-Q2pDw928ACxeRzH/view?usp=drive_link) splits. 
 ### Task C Question Answer Pairs
-Please refer to those links to get question-answer pairs for [training](https://drive.google.com/file/d/1-8ECkZV5q5i7CBY7U1llmCTSiVJPUNsS/view?usp=drive_link), [validation](https://drive.google.com/file/d/1-WdGXwo_8U7cU8mOh5ZjLm_CDqDDWbxo/view?usp=drive_link) and [testing](https://drive.google.com/file/d/1-F242FFvubAIpjXPItFc_eGUs3dzb6QO/view?usp=drive_link) splits. 
+Please refer to those links to get question-answer pairs for [training](https://drive.google.com/file/d/1-8ECkZV5q5i7CBY7U1llmCTSiVJPUNsS/view?usp=drive_link), [validation](https://drive.google.com/file/d/1-WdGXwo_8U7cU8mOh5ZjLm_CDqDDWbxo/view?usp=drive_link) and [testing](https://drive.google.com/file/d/1-F242FFvubAIpjXPItFc_eGUs3dzb6QO/view?usp=drive_link) splits. We also provide the [official tutorial](https://colab.research.google.com/drive/1RvjvXd4gVXaTIn31Ht6Sqk2uTMlscvRl) about dataset loading and a [baseline model](https://colab.research.google.com/drive/1C4HgX_Yl3vc6u5Wq6duZe0YQBU34ooh2?usp=sharing). 
+
+More tutorials and baseline code will be released gradually. 
 
 ## Experiments
 We experimented with several baselines on our PDF-VQA dataset to provide a preliminary view of different models’ performances. 
