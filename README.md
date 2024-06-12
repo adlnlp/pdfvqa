@@ -3,6 +3,32 @@
 # [PDF-VQA: A New Dataset for Real-World VQA on PDF Documents](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_35)
 
 ### <div align="center"> Yihao Ding, Siwen Luo, Hyunsuk Chung, Soyeon Caren Han </div>
+
+## Citation
+If you use the dataset, please cite this our paper [PDF-VQA: A New Dataset for Real-World VQA on PDF Documents](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_35) accepted by [ECML PKDD 2023](https://2023.ecmlpkdd.org/). 
+```
+@InProceedings{10.1007/978-3-031-43427-3_35,
+  author="Ding, Yihao
+          and Luo, Siwen
+          and Chung, Hyunsuk
+          and Han, Soyeon Caren",
+  editor="De Francisci Morales, Gianmarco
+          and Perlich, Claudia
+          and Ruchansky, Natali
+          and Kourtellis, Nicolas
+          and Baralis, Elena
+          and Bonchi, Francesco",
+  title="PDF-VQA: A New Dataset for Real-World VQA on PDF Documents",
+  booktitle="Machine Learning and Knowledge Discovery in Databases: Applied Data Science and Demo Track",
+  year="2023",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="585--601",
+  abstract="Document-based Visual Question Answering examines the document understanding of document images in conditions of natural language questions. We proposed a new document-based VQA dataset, PDF-VQA, to comprehensively examine the document understanding from various aspects, including document element recognition, document layout structural understanding as well as contextual understanding and key information extraction. Our PDF-VQA dataset extends the current scale of document understanding that limits on the single document page to the new scale that asks questions over the full document of multiple pages. We also propose a new graph-based VQA model that explicitly integrates the spatial and hierarchically structural relationships between different document elements to boost the document structural understanding. The performances are compared with several baselines over different question types and tasks (The full dataset is released in https://github.com/adlnlp/pdfvqa).",
+  isbn="978-3-031-43427-3"
+}
+```
+
 ### <div align="center"> Accepted by European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases <br> (ECML PKDD 2023) </div>
 
 
@@ -70,30 +96,6 @@ The contributors of the work are:
 - [Soyeon Caren Han](https://drcarenhan.github.io/) (Senior lecturer at the University of Western Australia, Honorary senior lecturer at the University of Sydney)
 
 
-## Citation
-If you use the dataset, please cite this our paper [PDF-VQA: A New Dataset for Real-World VQA on PDF Documents](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_35) accepted by [ECML PKDD 2023](https://2023.ecmlpkdd.org/). 
-```
-@InProceedings{10.1007/978-3-031-43427-3_35,
-  author="Ding, Yihao
-          and Luo, Siwen
-          and Chung, Hyunsuk
-          and Han, Soyeon Caren",
-  editor="De Francisci Morales, Gianmarco
-          and Perlich, Claudia
-          and Ruchansky, Natali
-          and Kourtellis, Nicolas
-          and Baralis, Elena
-          and Bonchi, Francesco",
-  title="PDF-VQA: A New Dataset for Real-World VQA on PDF Documents",
-  booktitle="Machine Learning and Knowledge Discovery in Databases: Applied Data Science and Demo Track",
-  year="2023",
-  publisher="Springer Nature Switzerland",
-  address="Cham",
-  pages="585--601",
-  abstract="Document-based Visual Question Answering examines the document understanding of document images in conditions of natural language questions. We proposed a new document-based VQA dataset, PDF-VQA, to comprehensively examine the document understanding from various aspects, including document element recognition, document layout structural understanding as well as contextual understanding and key information extraction. Our PDF-VQA dataset extends the current scale of document understanding that limits on the single document page to the new scale that asks questions over the full document of multiple pages. We also propose a new graph-based VQA model that explicitly integrates the spatial and hierarchically structural relationships between different document elements to boost the document structural understanding. The performances are compared with several baselines over different question types and tasks (The full dataset is released in https://github.com/adlnlp/pdfvqa).",
-  isbn="978-3-031-43427-3"
-}
-```
 
 
 
